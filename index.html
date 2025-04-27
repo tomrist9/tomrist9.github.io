@@ -2,36 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tomris Teymurlu - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tomris Teymurlu | Backend Developer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9fafb;
+            color: #111;
         }
         header {
-            background-color: #4CAF50;
-            padding: 20px;
+            background: #111;
+            color: #fff;
+            padding: 100px 20px;
             text-align: center;
-            color: white;
         }
-        main {
-            padding: 20px;
+        header h1 {
+            font-size: 48px;
+            margin: 10px 0;
+        }
+        header p {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+        section {
+            padding: 60px 20px;
             max-width: 900px;
             margin: auto;
-            background-color: white;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
             color: #333;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            padding-bottom: 5px;
         }
         ul {
-            list-style-type: square;
             padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
         }
         a {
             color: #4CAF50;
@@ -41,51 +52,74 @@
             text-decoration: underline;
         }
         footer {
-            margin-top: 40px;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
+            background: #111;
+            color: #aaa;
             font-size: 14px;
-            color: #777;
+            margin-top: 40px;
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skills-grid span {
+            background: #e0f2f1;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 16px;
         }
     </style>
 </head>
+
 <body>
 
 <header>
-    <h1>Hello, I'm Tomris Teymurlu 👩‍💻</h1>
+    <h1>Tomris Teymurlu</h1>
     <p>Java Backend Developer passionate about software engineering</p>
 </header>
 
-<main>
-    <h2>Skills</h2>
-    <ul>
-        <li>Java</li>
-        <li>Spring Boot</li>
-        <li>Microservices</li>
-        <li>Hibernate</li>
-        <li>JPA</li>
-        <li>Docker</li>
-        <li>Kubernetes</li>
-        <li>Grafana</li>
-        <li>Prometheus</li>
-        <li>Keycloak</li>
-    </ul>
+<section>
+    <h2>About Me</h2>
+    <p>I am a backend software engineer who loves building scalable systems. Skilled in Java, Spring Boot, Microservices, Docker, Kubernetes, and modern DevOps tools like Grafana and Prometheus. I’m passionate about delivering high-quality code and continuously improving my craft.</p>
+</section>
 
+<section>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>Microservices</span>
+        <span>Hibernate</span>
+        <span>JPA</span>
+        <span>Docker</span>
+        <span>Kubernetes</span>
+        <span>Grafana</span>
+        <span>Prometheus</span>
+        <span>Keycloak</span>
+    </div>
+</section>
+
+<section>
     <h2>Projects</h2>
     <ul>
-        <li><a href="https://github.com/tomrist9/wallet-wave/tree/main" target="_blank">Wallet Wave</a> - Wallet Application based on Microservices.</li>
-        <li><a href="https://github.com/tomrist9/mindspring" target="_blank">MindSpring</a> - Advanced Spring Boot concepts demo project.</li>
+        <li><a href="https://github.com/tomrist9/wallet-wave/tree/main" target="_blank"><strong>Wallet Wave</strong></a> — A Wallet Application based on Microservices architecture.</li>
+        <li><a href="https://github.com/tomrist9/mindspring" target="_blank"><strong>MindSpring</strong></a> — Spring Boot project implementing advanced backend concepts.</li>
     </ul>
+</section>
 
+<section>
     <h2>Contact</h2>
     <p>Email: <a href="mailto:tomristt9@gmail.com">tomristt9@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/tomris-t-b4656016a/" target="_blank">Tomris Teymurlu</a></p>
-</main>
+</section>
 
 <footer>
-    © 2025 Tomris Teymurlu. All rights reserved.
+    © 2025 Tomris Teymurlu. Built with 💻 and ☕
 </footer>
 
 </body>
 </html>
+
 
