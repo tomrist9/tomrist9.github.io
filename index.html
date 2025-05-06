@@ -70,6 +70,25 @@
             border-radius: 20px;
             font-size: 16px;
         }
+        .project {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 5px solid #4caf50;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project ul {
+            padding-left: 20px;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -77,12 +96,21 @@
 
 <header>
     <h1>Tomris Teymurlu</h1>
-    <p>Java Backend Developer passionate about software engineering</p>
+    <p>Java Backend Developer passionate about building scalable systems</p>
 </header>
 
 <section>
     <h2>About Me</h2>
-    <p>I am a backend software engineer who loves building scalable systems. Skilled in Java, Spring Boot, Microservices, Docker, Kubernetes, and modern DevOps tools like Grafana and Prometheus. I’m passionate about delivering high-quality code and continuously improving my craft.</p>
+    <p>
+        I’m a Java Backend Developer with strong hands-on experience in building scalable microservices using
+        <strong>Spring Boot, Spring Cloud, Kafka, Docker, Kubernetes</strong>, and <strong>Helm</strong>.
+        I completed internships at <strong>Cybernet LLC</strong> (Arz Delivery project using Domain-Driven Design) and
+        <strong>Andersen Lab</strong> (retail-based Spring Modulith project).
+    </p>
+    <p>
+        My current focus is mastering microservices architecture, clean code, distributed systems, and acing coding interviews
+        through data structures & algorithms. I’m passionate about delivering production-grade backend solutions and always open to remote opportunities.
+    </p>
 </section>
 
 <section>
@@ -91,6 +119,7 @@
         <span>Java</span>
         <span>Spring Boot</span>
         <span>Microservices</span>
+        <span>Kafka</span>
         <span>Hibernate</span>
         <span>JPA</span>
         <span>Docker</span>
@@ -98,15 +127,47 @@
         <span>Grafana</span>
         <span>Prometheus</span>
         <span>Keycloak</span>
+        <span>Helm</span>
     </div>
 </section>
 
 <section>
     <h2>Projects</h2>
-    <ul>
-        <li><a href="https://github.com/tomrist9/wallet-wave/tree/main" target="_blank"><strong>Wallet Wave</strong></a> — A Wallet Application based on Microservices architecture.</li>
-        <li><a href="https://github.com/tomrist9/mindspring" target="_blank"><strong>MindSpring</strong></a> — Spring Boot project implementing advanced backend concepts.</li>
-    </ul>
+
+    <div class="project">
+        <h3>Wallet-Wave</h3>
+        <p>
+            A production-grade banking application built using a microservices architecture. Includes modules for account management,
+            transactions, and authentication.
+        </p>
+        <ul>
+            <li><strong>Tech Stack:</strong> Java, Spring Boot, Spring Cloud, Kafka, RabbitMQ, Docker, Kubernetes, Prometheus, Grafana</li>
+            <li><strong>Features:</strong> Service Discovery, API Gateway, Config Server, OAuth2 Security, distributed tracing with Tempo</li>
+        </ul>
+        <a href="https://github.com/tomrist9/wallet-wave" target="_blank">🔗 GitHub Repository</a>
+    </div>
+
+    <div class="project">
+        <h3>Arz Delivery</h3>
+        <p>
+            A delivery service platform developed during my internship at Cybernet LLC. Followed Domain-Driven Design (DDD) principles and event-driven architecture.
+        </p>
+        <ul>
+            <li><strong>Tech Stack:</strong> Java, Spring Boot, Kafka, DDD, PostgreSQL</li>
+            <li><strong>Approach:</strong> Modular architecture with clean separation of concerns and command-handling via Kafka events</li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <h3>MindSpring</h3>
+        <p>
+            Spring Boot project implementing advanced backend concepts with a modular architecture.
+        </p>
+        <ul>
+            <li><strong>Tech Stack:</strong> Java, Spring Boot, JPA, Lombok, REST APIs</li>
+        </ul>
+        <a href="https://github.com/tomrist9/mindspring" target="_blank">🔗 GitHub Repository</a>
+    </div>
 </section>
 
 <section>
@@ -121,5 +182,3 @@
 
 </body>
 </html>
-
-
